@@ -1,0 +1,24 @@
+{
+  "name": "corporate_website_design",
+  "version": "1.0.0",
+  "description": "Bootstrap Projects",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass --watch scss/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gm-nayeem/Corporate-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gm-nayeem/Corporate-Website/issues"
+  },
+  "homepage": "https://github.com/gm-nayeem/Corporate-Website#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.1",
+    "sass": "^1.55.0"
+  }
+}

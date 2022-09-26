@@ -1,0 +1,13 @@
+// bootstrap theme changes codes
+
+// import bootstrap scss files
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "./nav/nav.scss";
+@import "./footer/footer.scss";
+
+
+// custom codes
+
+.extra-margin{
+    margin-top: 80px;
+}
