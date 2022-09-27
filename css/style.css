@@ -10861,7 +10861,7 @@ footer .subscribe-group button {
   color: #fff;
 }
 .call-to-action-section .btn {
-  background-color: linear-gradient(90deg, #8b62ff 0, #3b1bff);
+  background-image: linear-gradient(90deg, #8b62ff 0, #3b1bff);
 }
 
 .specification-section {
@@ -10883,6 +10883,64 @@ footer .subscribe-group button {
   left: -50px;
   margin-top: -2px;
   color: #8b62ff;
+}
+
+.price-section {
+  padding: 80px 0;
+}
+.price-section .price-card {
+  background-color: #f5f5f5;
+  padding-bottom: 3rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.price-section .vertical-gap {
+  flex: 1;
+}
+.price-section .price-header {
+  background: #ddd;
+  padding: 5rem 3rem;
+  text-align: center;
+  color: #fff;
+}
+.price-section .personal {
+  background-color: #4e74ff;
+}
+.price-section .professional {
+  background-color: #3cbffa;
+}
+.price-section .bussiness {
+  background-color: #1f2946;
+}
+.price-section .price-body {
+  margin: 3rem 2rem;
+  margin-bottom: 0;
+}
+.price-section .price-body .features {
+  list-style-type: none;
+}
+.price-section .price-body .features li {
+  position: relative;
+  margin-bottom: 30px;
+}
+.price-section .price-body .features li:before {
+  position: absolute;
+  font-family: "Font Awesome 5 Free";
+  font-size: 2rem;
+  content: "\f058";
+  left: -50px;
+  margin-top: -5px;
+  color: #8b62ff;
+}
+.price-section .price-footer {
+  margin: 0 2rem;
+}
+.price-section .price-footer .btn {
+  padding: 0.5rem;
+  background-image: linear-gradient(90deg, #8b62ff 0, #3b1bff);
+  border: none;
+  outline: none;
 }
 
 .extra-margin {
