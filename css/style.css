@@ -10885,6 +10885,13 @@ footer .subscribe-group button {
   color: #8b62ff;
 }
 
+.about-section img {
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  object-position: center;
+}
+
 .price-section {
   padding: 80px 0;
 }
