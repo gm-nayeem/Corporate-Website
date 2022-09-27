@@ -10864,6 +10864,27 @@ footer .subscribe-group button {
   background-color: linear-gradient(90deg, #8b62ff 0, #3b1bff);
 }
 
+.specification-section {
+  padding: 60px 0px;
+}
+.specification-section .specs {
+  padding-left: 80px;
+  list-style: none;
+}
+.specification-section .specs li {
+  position: relative;
+  margin-bottom: 30px;
+}
+.specification-section .specs li:before {
+  position: absolute;
+  font-family: "Font Awesome 5 Free";
+  font-size: 2rem;
+  content: "\f058";
+  left: -50px;
+  margin-top: -2px;
+  color: #8b62ff;
+}
+
 .extra-margin {
   margin-top: 80px;
 }

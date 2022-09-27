@@ -1,0 +1,24 @@
+.specification-section {
+    padding: 60px 0px;
+
+    .specs {
+        padding-left: 80px;
+        list-style: none;
+
+        li {
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+        li:before {
+            position: absolute;
+            font-family: 'Font Awesome 5 Free';
+            font-size: 2rem;
+            content: '\f058';
+            left: -50px;
+            margin-top: -2px;
+            color: #8b62ff;
+        }
+    }
+
+}
